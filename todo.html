@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html data-ng-app>
+<html ng-app="todoApp">
     <head>
         <title>TO DO List</title>
         <link rel="stylesheet" href="bootstrap.css">
         <link rel="stylesheet" href="bootstrap-theme.css">
+        <script src="angular.js"></script>
+        <script>
+            let todoApp = angular.module("todoApp", []);
+        </script>
     </head>
     <body>
         <div class="page-header">
